@@ -15,6 +15,31 @@ header{
     margin:2px;
 }
 
+.search{
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    height: 36px;  
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    border:2px solid  rgb(206, 202, 202);
+    font-size: 14px;
+    height: 30px;
+    outline: 0;
+    width: 98.5%;
+    padding-left: 8px;
+    
+} 
+input::placeholder {
+    color:#19191a ;
+    font-size: 1em;
+    text-align: left;
+    padding-left: 15px;
+}
+
 .container{
     margin-left: 54px;
     margin-right: 43px;
@@ -45,4 +70,4 @@ footer{
 
 
 
-*{border:1px solid red;}
+/* *{border:1px solid red;} */

@@ -3,26 +3,23 @@
     background: white;
     font-family: 'Merriweather', serif;
 }
-
 body{
     max-width: 1024px;
     margin: 0 auto;
 }
-
 header{
     height: 10px;
     width:100%;
-    margin:2px;
+    border:2px;
 }
-
 .search{
-    margin:0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 17px;
     max-width: 500px;
-    height: 36px;  
+    height: 36px;
+    padding-right: 17px;  
 }
-
 input[type="text"] {
     border-radius: 5px;
     border:2px solid  rgb(206, 202, 202);
@@ -30,16 +27,14 @@ input[type="text"] {
     height: 30px;
     outline: 0;
     width: 98.5%;
-    padding-left: 8px;
-    
+    padding-left: 8px;   
 } 
 input::placeholder {
-    color:#19191a ;
+    color:#525257 ;
     font-size: 1em;
     text-align: left;
     padding-left: 15px;
 }
-
 .container{
     margin-left: 54px;
     margin-right: 43px;
@@ -59,15 +54,18 @@ input::placeholder {
     display: inline-block;
     overflow: hidden;
     margin: 1px 1px;
-   
 }
 footer{
-    height: 10px;
+    height: 80px;
     width:100%;
-    margin:2px;
+    border:2px;
 }
-
-
-
-
-/* *{border:1px solid red;} */
+/*=========== Media Queries=========*/
+@media (min-width: 516px) {
+    .search {
+        margin:0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-right: 14px; 
+      }
+    }
